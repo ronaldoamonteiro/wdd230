@@ -1,0 +1,44 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+header, main, nav, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header{
+    background-color:navy;
+    color: beige;
+    text-align: center;
+    padding: 0.2em;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    float: right;
+    
+}
+
+footer{
+    background-color:navy;
+    color: beige;
+    text-align: center;
+}
+
+footer a {
+    color: beige;
+}
+
+footer div{
+    color: coral;
+    font-size: 14px;
+}
+
+header, footer, img {
+    border-radius: 8px;
+}

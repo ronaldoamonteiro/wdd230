@@ -3,3 +3,9 @@ function lastUpDated() {
     document.getElementById("lastUpDatedDated").innerHTML = updated;
 }
 var fixed = setInterval(lastUpDated, onload);
+
+function getYear(){
+    var year = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = year;
+}
+var currentYear = setInterval(getYear, onload);

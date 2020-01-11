@@ -4,8 +4,8 @@ function getYear() {
 }
 var currentYear = setInterval(getYear, onload);
 
-function lastUpDated() {
+function lastUpdate() {
     var updated = document.lastModified;
-    document.getElementById("lastUpDatedDated").innerHTML = updated;
+    document.getElementById("lastUpdate").innerHTML = updated;
 }
-var fixed = setInterval(lastUpDated, onload);
+var fixed = setInterval(lastUpdate, onload);

@@ -11,4 +11,11 @@
         border-radius: 10px;
     }
 
+    header img {
+        float: right;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #444;
+        width: 10em;
+    }
+
 }

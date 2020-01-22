@@ -1,62 +1,70 @@
-.grid{
+.grid {
     display: grid;
-    grid-template-columns:  1fr 320px 320px 320px 1fr;
+    grid-template-columns: 1fr 320px 320px 320px 1fr;
     grid-template-rows: 100px 100px 1fr 20px;
-    grid-template-areas: 
-    ". header header header ."
-    ". title title title ."
-    ". column1 column2 column3 ."
-    ". footer footer footer ."
+    grid-template-areas:
+        ". header header header ."
+        ". title title title ."
+        ". column1 column2 column3 ."
+        ". footer footer footer ."
     ;
     grid-column-gap: 1em;
 }
 
-h1, h2, .footer{
-    text-align: center;
-}
-h1{
-    color: #FFFFF0;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-h2{
+h1,
+h2,
+.footer {
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFF0;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
     color: #30706F;
 }
 
-h3{
+h3 {
     color: #B51630;
 }
 
-.column1 a{
+.column1 a {
     color: #30706F;
 }
 
-.footer a{
+.footer a {
     color: #FFF8DC;
 }
 
-.header{
+.header {
     grid-area: header;
-    background-color:#B51630;
+    background-color: #B51630;
 }
 
-.title{
+.title {
     grid-area: title;
     background-color: #FFF8DC;
 }
 
-.column1{
+.column1 {
     grid-area: column1;
 }
 
-.column2{
+.column2 {
     grid-area: column2;
 }
 
-.column3{
+.column3 {
     grid-area: column3;
 }
 
-.footer{
+.footer {
     grid-area: footer;
     background-color: #30706F;
     color: #FFF8DC;

@@ -8,6 +8,7 @@
     ". column1 column2 column3 ."
     ". footer footer footer ."
     ;
+    grid-column-gap: 1em;
 }
 
 h1, h2, .footer{
@@ -45,17 +46,14 @@ h3{
 
 .column1{
     grid-area: column1;
-    background-color:#FFFFF0;
 }
 
 .column2{
     grid-area: column2;
-    background-color:#FFFFF0;
 }
 
 .column3{
     grid-area: column3;
-    background-color:#FFFFF0;
 }
 
 .footer{

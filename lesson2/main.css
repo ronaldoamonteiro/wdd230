@@ -24,7 +24,12 @@ h2{
 h3{
     color: #B51630;
 }
-a{
+
+.column1 a{
+    color: #30706F;
+}
+
+.footer a{
     color: #FFF8DC;
 }
 

@@ -3,13 +3,9 @@
     grid-template-columns: 1fr;
 }
 
+
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-h1,
-h2,
-.footer {
     text-align: center;
 }
 
@@ -24,10 +20,6 @@ h2 {
 
 h3 {
     color: #B51630;
-}
-
-.column1 a {
-    color: #30706F;
 }
 
 .footer a {

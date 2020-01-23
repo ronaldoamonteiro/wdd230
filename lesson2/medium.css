@@ -1,10 +1,24 @@
 @media only screen and (min-width: 37.5em){
     .grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .header, .title, .column3, .footer{
-        grid-column-start: 1;
+    .header, .title, .footer{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .column1{
+        grid-column-start: 2;
         grid-column-end: 3;
+    }
+
+    .column3{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .column1, .column2{
+        margin-right: 1em;
     }
 }

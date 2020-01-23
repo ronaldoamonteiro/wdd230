@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+.footer {
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFF0;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    color: #30706F;
+}
+
+h3 {
+    color: #B51630;
+}
+
+.column1 a {
+    color: #30706F;
+}
+
+.footer a {
+    color: #FFF8DC;
+}
+
+.header {
+    background-color: #B51630;
+}
+
+.title {
+    background-color: #FFF8DC;
+}
+
+.footer {
+    background-color: #30706F;
+    color: #FFF8DC;
+}

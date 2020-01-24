@@ -2,62 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='stylesheet' href='small.css'>
-    <link rel='stylesheet' href='medium.css'>
-    <link rel='stylesheet' href='large.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <script src='main.js'></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="description"
-        content="Design Principles Documents for Ronaldo Monteiro in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
-    <title>CIT 230: Design Principles</title>
+        content="Assignment portal for Ronaldo Monteiro in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Student Profile</title>
+    <script src='js/main.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='css/small.css'>
+    <link rel='stylesheet' href='css/medium.css'>
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
-    <div class="grid">
-        <div class="header">
-            <h1>Ronaldo A. Monteiro</h1>
-        </div>
-        <div class="title">
-            <h2>CIT 230: Design Principles</h2>
-        </div>
-        <div class="designs">
-            <h3>Space and Clean Design</h3>
-            <h4>Vivara Jowelry</h4>
-            <a href="https://www.vivara.com.br/">vivara.com.br</a><br>
-            <img src="vivara.png" alt="website Vivara.com">
-            <p>This website has white space design that is the blank area around, inside, or between the elements of a
-                design.</p>
-        </div>
-        
-        <div class="designs">
-            <h3>Visual Hierarchy</h3>
-            <h4>Door Dash Food Delivery</h4>
-            <a href="https://www.doordash.com/">doordash.com/</a><br>
-            <img src="doordash.jpg" alt="website doordash.com">
-            <p>The biggest eye-catcher is a delicius meal, followed by the call to action to ask (your address) for
-                delivy food to your home.
-                In the mobile you have the botton to get the app.
-            </p>
-        </div>
-
-        <div class="designs">
-            <h3>Hick’s Law</h3>
-            <h4>Masters Portal</h4>
-            <a href="https://www.mastersportal.com/search/#q=ci-82/di-286/lv-master">mastersportal.com/</a><br>
-            <img src="master.jpg" alt="website Masters Portal">
-            <p>Hick’s Law says that with every additional choice increases the time required to take a decision. There
-                are a lot of options of master degreein this search but this website has good very filters.</p>
-        </div>
-        <div class="footer">
-            &copy; <span id="currentYear"></span> | Ronaldo A. Monteiro | Madrid |
-            <a href="http://www.byui.edu/online">BYUI Online Learning</a> <br>
-        </div>
-    </div>
+    <header>
+        <img src="images/student.jpg" alt="This is a picture of Ronaldo Monteiro. I'm wearing suit and tie.">
+        <h1>Ronaldo A. Monteiro</h1>
+    </header>
+    <main>
+        <section>
+            <h2>CIT 230: Assignment Portal</h2>
+            <hr>
+        </section>
+    </main>
+    <nav>
+        <ul>
+            <li>Lesson 02: <a href="./">Assignment Link</a></li>
+            <li>Lesson 03: <a href="./">Assignment Link</a></li>
+            <li>Lesson 04: <a href="./">Link | Link</a></li>
+        </ul>
+    </nav>
+    <footer>
+        &copy; <span id="currentYear"></span> | Ronaldo A. Monteiro | Madrid |
+        <a href="http://www.byui.edu/online">BYUI Online Learning</a> <br>
+        <div>Last Updated: <span id="lastUpdate"></span></div>
+    </footer>
 </body>
-
 </html>

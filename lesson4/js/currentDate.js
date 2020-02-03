@@ -30,6 +30,4 @@ let monthName = months[d.getMonth()];
 let fulldate = daynames[d.getDay()] + ", " + months[d.getMonth()] + " " + d.getDate() + ", " +
 d.getFullYear();
 
-console.log(fulldate);
-
-document.getElementById("currentdate").innerHTML = fulldate;
+document.getElementById('currentDate').innerHTML = fulldate;

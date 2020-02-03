@@ -1,10 +1,6 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-    nav{
-       background-color: #6D7993;
-    }
-
     nav button{
         display: none;
     }
@@ -14,7 +10,7 @@
     }
 
     nav ul{
-        margin-left: 2%;
+        margin-left: 20%;
     }
     nav ul li{
         float: left;

@@ -4,7 +4,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-
+body{
+    text-align: center;
+}
 
 nav button {
     margin: .2rem 2%;
@@ -15,7 +17,7 @@ nav button {
 }
 
 nav {
-    background-color: #aa0000;
+    background-color: #6D7993;
     font-family: Verdana, sans-serif;
 }
 
@@ -49,5 +51,11 @@ nav ul.hide {
   }
 
 
+header{
+    background-color: #D5D5D5;
 
+}
 
+footer{
+    background-color: #9099A2;
+}

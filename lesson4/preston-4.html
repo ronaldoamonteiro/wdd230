@@ -22,7 +22,7 @@
     <link href="css/large.css" rel="stylesheet">
 
     <script src='js/scripts.js'></script>
-    
+
 </head>
 
 <body>
@@ -47,10 +47,20 @@
         </ul>
     </nav>
 
-
     <!-- CONTENT HERE -->
     <main>
         <h2>Preston Idaho</h2>
+        <div class="herodiv">
+            <img class="imgpreston" src="images/preston.jpg">
+            <section class="stats">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currently">Sunny</span></p>
+                <p>High: <span id="high">76 F</span></p>
+                <p>Wind Chill: <span id="windchill">F</span></p>
+                <p>Humidity: <span id="humidity">69%</span></p>
+                <p>Wind Speed: <span id="windspeed">5 mph</span></p>
+            </section>
+        </div>
         <div>Hero w/ weather summary</div>
         <div>5 day forecast</div>
         <div>Article</div>
@@ -60,9 +70,8 @@
     <!-- FOOTER HERE -->
     <footer>
         &copy; Weathers | Ronaldo A. Monteiro | Spain<br>
-        <span id='currentDate'></span>
+        <span class="date" id='currentDate'></span>
     </footer>
     <script src='js/currentDate.js'></script>
 </body>
-
 </html>

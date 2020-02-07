@@ -9,6 +9,17 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.slogan{
+    color: #DF995E;
+}
+header h1{
+    margin-bottom: 0;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -58,5 +69,5 @@ header{
 }
 
 footer{
-    background-color: #9099A2;
+    background-color: #D5D5D5;
 }

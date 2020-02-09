@@ -40,4 +40,10 @@
         margin-bottom: 2rem;
     }
 
+    .forecast{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 2rem 15% 2rem 15%;
+    }
+
 } /*end large */

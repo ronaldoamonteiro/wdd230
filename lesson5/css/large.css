@@ -23,9 +23,6 @@
         display: block;
     }
 
-    nav ul{
-        margin-left: 20%;
-    }
     nav ul li{
         float: left;
     }
@@ -44,6 +41,10 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: 2rem 15% 2rem 15%;
+    }
+
+    nav{
+        padding-left: 20%;
     }
 
 } /*end large */

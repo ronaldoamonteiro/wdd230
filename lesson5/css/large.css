@@ -53,4 +53,13 @@
         max-width: 50%;
     }
 
+    .map{
+        display: block;
+    }
+
+    .contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 } /*end large */

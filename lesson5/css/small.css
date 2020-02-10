@@ -148,3 +148,12 @@ p {
 .forecast {
     display: none;
 }
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.map{
+    display: none;
+}

@@ -21,9 +21,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.slogan {
-    color: #DF995E;
-}
+
 
 header h1 {
     margin-bottom: 0;
@@ -93,7 +91,6 @@ footer {
 }
 
 .date {
-    color: #DF995E;
     font-size: 9pt;
 }
 

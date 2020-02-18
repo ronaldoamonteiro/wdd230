@@ -24,13 +24,14 @@
     }
 
     .forecast{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 2rem 15% 2rem 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     nav{
-        padding-left: 20%;
+        display: flex;
+        justify-content: center;
     }
 
     .article img{
@@ -43,9 +44,6 @@
         display: block;
     }
 
-    .contact{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  
 
-} /*end large */
+} /*end large*/

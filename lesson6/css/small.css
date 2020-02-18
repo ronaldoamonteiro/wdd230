@@ -12,8 +12,8 @@ html {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -147,8 +147,8 @@ p {
 }
 
 .contact{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: space-around;
 }
 
 .map{

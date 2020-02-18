@@ -50,10 +50,12 @@
         <main>
             <h2>Preston Idaho</h2>
             <div class="herodiv">
-                <figure>
-                    <img class="imgpreston" src="images/img_franklinOriginal.jpeg.jpg" sizes="100vw" alt="preston city"
-                        srcset="images/preston600.jpg 600w, images/preston1000.jpg 1000w, images/preston1200.jpg 1200w">
-                </figure>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="images/preston600.jpg">
+                    <source media="(max-width: 1000px)" srcset="images/preston1000.jpg">
+                    <source media="(max-width: 1400px)" srcset="images/preston1400.jpg">
+                    <img class="imgpreston" src="images/preston.jpg"  alt="preston city">
+                </picture>
                 <section class="stats">
                     <h2>Weather Summary</h2>
                     <p>Currently: <span id="currently">Cloudy</span></p>

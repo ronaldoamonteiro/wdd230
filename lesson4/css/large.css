@@ -9,9 +9,7 @@
         display: block;
     }
 
-    nav ul{
-        margin-left: 20%;
-    }
+   
     nav ul li{
         float: left;
     }

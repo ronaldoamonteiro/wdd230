@@ -40,6 +40,8 @@ nav button {
 nav {
     background-color: #6D7993;
     font-family: Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {

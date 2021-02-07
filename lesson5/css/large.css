@@ -24,7 +24,7 @@
     }
 
     nav ul li{
-        float: left;
+        display: inline-block;
     }
 
     nav ul li a{
@@ -43,9 +43,6 @@
         margin: 2rem 15% 2rem 15%;
     }
 
-    nav{
-        padding-left: 20%;
-    }
 
     .article img{
         float: right;

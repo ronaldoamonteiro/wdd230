@@ -83,6 +83,7 @@ nav ul.hide {
 
 
 header {
+    padding: 10px;
     background-color: #D5D5D5;
 
 }
@@ -93,8 +94,7 @@ footer {
 }
 
 .date {
-    color: #DF995E;
-    font-size: 9pt;
+    font-size: 10pt;
 }
 
 
@@ -113,6 +113,10 @@ h1,
 h2,
 p {
     margin: 0;
+}
+
+main h2{
+    margin:20px;
 }
 
 

@@ -30,6 +30,11 @@ thead tr:nth-child(2n){
     color: white;
 }
 
+#not-reached-goal{
+    background-color: #628ca6 ;
+    color: white;
+}
+
 tfoot {
     background-color: #7fb9c2 ;
 }

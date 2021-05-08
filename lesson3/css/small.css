@@ -12,26 +12,40 @@ html {
 }
 
 body {
-    text-align: center;
+    text-align: justify;
     font-family: 'Montserrat', sans-serif;
 }
 
-.slogan {
+header {
+    background-color: #D5D5D5;
+    overflow: hidden;    
+    text-align:center;
+}
+
+.name-slogan p {
+    font-weight: bold;
     color: #DF995E;
 }
 
-header h1 {
-    margin-bottom: 0;
+header img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-header img {
-    width: 100px;
-    height: 100px;
+.name-slogan {
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
 div img {
     width: 100%;
     margin-bottom: 50px;
+    
 }
 
 nav button {
@@ -73,7 +87,7 @@ nav ul.hide {
 
 nav{
     background-color: #6D7993;
-    font-family: Verdana, sans-serif;
+    
     position: relative;
     display: flex;
     justify-content: center;
@@ -87,14 +101,10 @@ nav{
 }
 
 
-header {
-    background-color: #D5D5D5;
-
-}
-
 footer {
-    background-color: #6D7993;
+    background-color: #000000;
     color: rgba(250, 250, 250, 0.8);
+    text-align: center;
 }
 
 .date {
@@ -102,7 +112,7 @@ footer {
 }
 
 main {max-width:820px;margin:0 auto;}
-h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
+header h1 {text-align: center;font-size:2.5rem;}
 
 .herodiv {margin: 10px auto;position: relative;}
 h1, p {margin: 0;}
@@ -122,4 +132,24 @@ h1, p {margin: 0;}
 .imgpreston {
     max-width: 100%;
     max-height: 100%;
+}
+
+
+.personas img{
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+}
+
+.persona{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.about-persona{
+    vertical-align: bottom;
+}
+
+.typography{
+    text-align: center;
 }

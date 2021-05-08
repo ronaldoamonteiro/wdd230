@@ -6,31 +6,32 @@
     <meta name="description" content="The Preston page. More information in the future weeks.">
     <meta name="author" content="Ronaldo Monteiro">
 
-    <titleAcclimate</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <titleAcclimate</title> <link rel="shortcut icon" href="/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!-- STYLE SHEETS -->
-    <link href="css/normalize.css" rel="stylesheet">
-    <!-- phone-default -->
-    <link href="css/small.css" rel="stylesheet">
-    <!-- enhance-tablet -->
-    <link href="css/medium.css" rel="stylesheet">
-    <!-- enhance-desktop -->
-    <link href="css/large.css" rel="stylesheet">
+        <!-- STYLE SHEETS -->
+        <link href="css/normalize.css" rel="stylesheet">
+        <!-- phone-default -->
+        <link href="css/small.css" rel="stylesheet">
+        <!-- enhance-tablet -->
+        <link href="css/medium.css" rel="stylesheet">
+        <!-- enhance-desktop -->
+        <link href="css/large.css" rel="stylesheet">
 
-    <script src='js/scripts.js'></script>
+        <script src='js/scripts.js'></script>
 
 </head>
 
 <body>
     <!-- HEADER HERE -->
     <header>
-        <h1>Acclimate</h1>
         <img src="images/logo.png" alt="company logo">
-        <div class="slogan">Information for prevention<div>
+        <div class="name-slogan">
+            <h1>Acclimate</h1>
+            <p>Go Safe</p>
+        </div>
     </header>
 
 
@@ -38,8 +39,8 @@
     <nav class="clearfix">
         <button onclick="toglleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="target-audience.html">Target Audience</a></li>
+            <li class="active"><a href="index.html">Purpose</a></li>
+            <li><a href="target-audience.html">Target Audience</a></li>
             <li><a href="color-scheme.html">Color Scheme</a></li>
             <li><a href="typography.html">Typography</a></li>
         </ul>
@@ -48,24 +49,53 @@
     <!-- CONTENT HERE -->
     <main>
         <div>
-            <h2>Purpose</h2>
-            <p>The purpose of this site is for families can access information on the current weather 
-                and the weather forecast for the upcoming weeks, so the families can be more prepared
-            to make their plans with safety.</p>
+            <h1>Target Audience</h1>
+            <h2>Scenarios</h2>
+            <ul>
+                <li>Families and individuals searching for the best days to go camping.</li>
+                <li>Families and individuals searching for the best days travel by car.</li>
+                <li>Families and individuals searching for information about storms.</li>
+                <li>Families and individuals concerned about hurricane.</li>
+            </ul>
+
         </div>
-        <div>
-            <h2>Domain Name</h2>
-            <p>The domain name "acclimate.net" is available and would be the domain for the site.</p>
+        <div class="personas">
+
+            <h2>Personas</h2>
+            <div class="persona">
+                <div>
+                    <img src="images/persona1.png" alt="">
+                </div>
+                <div>
+                    <p>Carol is married and the mother of 3 children. She and her family like to take advantage of each
+                        weekend and holiday to go hiking and hiking. Because she has children, she is always concerned
+                        with
+                        obtaining all the information regarding climate and weather to ensure that the adventures are
+                        fun
+                        and safe.</p>
+                </div>
+            </div>
+            <div class="persona">
+                <div>
+                    <img src="images/persona2.png" alt="">
+                </div>
+                <div>
+                    <p>John is a single student at Brigham Young University. He is 23 ans loves travelling, hiking and camping. He is also concerned about
+                        storms and hurricanes with classmates. He likes visiting a website about the weather.</p>
+                </div>
+            </div>
+
         </div>
         <br><br>
-        
+
     </main>
 
     <!-- FOOTER HERE -->
     <footer>
-        &copy; Acclimate | Ronaldo A. Monteiro | Brazil<br>
+        &copy; Acclimate | Ronaldo Monteiro | Brazil<br>
         <span class="date" id='currentDate'></span>
     </footer>
     <script src='js/currentDate.js'></script>
 </body>
+
 </html>

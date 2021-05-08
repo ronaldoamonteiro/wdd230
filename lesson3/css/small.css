@@ -14,10 +14,10 @@ html {
 body {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
+    margin: 5px;
 }
 
 header {
-    background-color: #D5D5D5;
     overflow: hidden;    
     text-align:center;
 }

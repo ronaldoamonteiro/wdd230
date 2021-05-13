@@ -6,7 +6,7 @@
     <meta name="description" content="The Preston page. More information in the future weeks.">
     <meta name="author" content="Ronaldo Monteiro">
 
-    <title>Weathers Company</title>
+    <title>Acclimate</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -28,15 +28,16 @@
 <body>
     <!-- HEADER HERE -->
     <header>
-        <h1>Acclimate</h1>
         <img src="images/logo.png" alt="company logo">
-        <div class="slogan">Information for prevention<div>
+        <div class="name-slogan">
+            <h1>Acclimate</h1>
+            <p>Go Safe</p>
+        </div>
     </header>
-
 
     <!-- NAVIGATION HERE -->
     <nav class="clearfix">
-        <button onclick="toglleMenu()" >|||</button>
+        <button onclick="toglleMenu()" id="iconx" class="rotate">|||</button>
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Preston</a></li>
@@ -58,7 +59,7 @@
 
     <!-- FOOTER HERE -->
     <footer>
-        &copy; Acclimate | Ronaldo A. Monteiro | Brazil<br>
+        &copy; Acclimate | Ronaldo Monteiro | Brazil<br>
         <span class="date" id='currentDate'></span>
     </footer>
     <script src='js/currentDate.js'></script>

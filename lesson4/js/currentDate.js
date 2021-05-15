@@ -27,7 +27,7 @@ let months = [
 let d = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
-let fulldate = daynames[d.getDay()] + ", " + months[d.getMonth()] + " " + d.getDate() + ", " +
+let fulldate = daynames[d.getDay()] + ", " + months[d.getMonth()] + " " + d.getDate() + " " +
 d.getFullYear();
 
 document.getElementById('currentDate').innerHTML = fulldate;

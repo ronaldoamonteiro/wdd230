@@ -42,22 +42,18 @@ header img {
 
 nav button {
     margin: .2rem 2%;
-    background-color: transparent;
+    background-color: #6D7993;
     border: none;
     font-size: 1.6rem;
     color: #fff;
-    transform: rotate(0deg);
     width: 50px;
     height: 50px;
 }
 
-nav button.rotate {
-    transform: rotate(90deg);
-}
+
 
 nav {
     background-color: #6D7993;
-    display: flex;
     justify-content: center;
 }
 
@@ -68,6 +64,7 @@ nav ul {
     width: 100%;
 }
 
+
 nav ul li a {
     display: block;
     padding: .8rem 2%;
@@ -76,11 +73,12 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-nav ul li a:hover {
+nav ul li.active a {
     background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
 }
 
-nav ul li.active a {
+nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
 }

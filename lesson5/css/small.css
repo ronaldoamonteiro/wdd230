@@ -21,8 +21,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.slogan {
+header {
+    padding: 10px;
+    background-color: #D5D5D5;
+
+}
+
+.name-slogan p {
+    font-weight: bold;
     color: #DF995E;
+}
+
+.name-slogan {
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
 header h1 {
@@ -30,9 +44,13 @@ header h1 {
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 
 nav button {
     margin: .2rem 2%;
@@ -82,15 +100,14 @@ nav ul.hide {
 }
 
 
-header {
-    padding: 10px;
-    background-color: #D5D5D5;
-
-}
 
 footer {
-    background-color: #6D7993;
+    margin-top: 25px;
+    background-color: black;
     color: rgba(250, 250, 250, 0.8);
+    padding: 5px;
+    max-width:70rem;
+    
 }
 
 .date {
@@ -98,18 +115,11 @@ footer {
 }
 
 
-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    text-shadow: 3px 3px 5px #777;
-}
+h1 {text-align: center;font-size:2.5rem}
 
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-}
+.herodiv {margin: 10px auto;position: relative;}
+h1, p {margin: 0;}
 
-h1,
 h2,
 p {
     margin: 0;

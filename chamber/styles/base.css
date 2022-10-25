@@ -21,15 +21,39 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    overflow: hidden;    
+    text-align:left;
+}
 
+.name-slogan p {
+    font-weight: bold;
+    color: #DF995E;
+}
 
-header h1 {
+.name-slogan {
     margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.date {
+    display: flex;
+    background-color: #DF995E;
+    justify-content: center;
+    margin: 8px;
+}
+
+.date {
+    margin: 10px;
 }
 
 nav button {
@@ -90,13 +114,9 @@ footer {
     color: rgba(250, 250, 250, 0.8);
 }
 
-.date {
-    font-size: 9pt;
-}
-
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 2.5rem;
     text-shadow: 3px 3px 5px #777;
 }

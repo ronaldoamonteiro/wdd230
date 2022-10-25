@@ -3,22 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="The Preston page. More contents in this assigment page.">
+    <meta name="description" content="The Marau Chamber page. More contents in this assigment page.">
     <meta name="author" content="Ronaldo Monteiro">
 
-    <title>Weathers Company</title>
+    <title>Marau chamber</title>
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- phone-default -->
-    <link href="css/small.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
     <!-- enhance-tablet -->
-    <link href="css/medium.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
-    <link href="css/large.css" rel="stylesheet">
-    <script src='js/scripts.js'></script>
+    <link href="styles/large.css" rel="stylesheet">
+    <script src='scripts/dateHeader.js'></script>
 
 </head>
 
@@ -26,11 +26,13 @@
     <!-- HEADER HERE -->
     <div class="flex">
         <header>
-            <h1>Acclimate</h1>
             <img src="images/logo.png" alt="company logo">
-            <div class="slogan">Information for prevention</div>
+            <div class="name-slogan">
+                <h1>Marau</h1>
+                <p>Chamber of Commerce</p>
+            </div>
+            <div class="date"></div>
         </header>
-
 
         <!-- NAVIGATION HERE -->
         <nav class="clearfix">
@@ -142,9 +144,9 @@
         <!-- FOOTER HERE -->
         <footer>
             &copy; Acclimate | Ronaldo A. Monteiro | Brazil<br>
-            <span class="date" id='currentDate'></span>
+            <span id='currentDate'></span>
         </footer>
-        <script src='js/currentDate.js'></script>
+        <script src='scripts/currentDate.js'></script>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
@@ -156,7 +158,8 @@
             }
         });
     </script>
-    <script src="js/windchill.js"></script>
+    <script type="text/javascript" src="scripts/dateHeader.js"></script>
+
 </body>
 
 </html>

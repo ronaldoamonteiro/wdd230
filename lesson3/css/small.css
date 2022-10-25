@@ -26,6 +26,12 @@ header {
     color: #DF995E;
 }
 
+.name-slogan {
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 header img {
     width: 70px;
     height: 70px;
@@ -34,12 +40,7 @@ header img {
     vertical-align: middle;
 }
 
-.name-slogan {
-    margin-bottom: 0;
-    display: inline-block;
-    vertical-align: middle;
-    
-}
+
 
 div img {
     width: 100%;

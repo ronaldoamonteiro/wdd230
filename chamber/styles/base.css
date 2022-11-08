@@ -104,7 +104,6 @@ header {
 }
 
 footer {
-    margin-top: 10px;
     background-color: #6D7993;
     color: rgba(250, 250, 250, 0.8);
 }
@@ -118,6 +117,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 150px 150px 150px 150px auto;
     grid-gap: 10px;
+    margin: 10px 0px;
 }
 
 .herodiv {
@@ -193,6 +193,6 @@ p {
 }
 
 main{
-    max-width: 1000px;
+    
     margin: 0 auto;
 }

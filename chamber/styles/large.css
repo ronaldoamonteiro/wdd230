@@ -39,7 +39,7 @@
     .grid-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 10px;
+        grid-template-rows: 150px 150px 150px;
         grid-gap: 10px;
     }
 
@@ -79,7 +79,6 @@
     }
     section{
         width: 100%;
-        margin: 0px;
     }
 
     

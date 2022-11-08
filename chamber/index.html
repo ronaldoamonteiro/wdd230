@@ -9,7 +9,7 @@
     <meta name="author" content="Ronaldo Monteiro" />
 
     <title>Marau chamber</title>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="favicon.png" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -24,6 +24,9 @@
     <!-- enhance-desktop -->
     <link href="styles/large.css" rel="stylesheet" />
     <script src="scripts/dateHeader.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/lastUpdate.js"></script>
+    <script src="scripts/currentDate.js"></script>
   </head>
 
   <body>
@@ -35,8 +38,9 @@
         <h1>Marau</h1>
         <p>Chamber of Commerce</p>
       </div>
-      <div class="date"></div>
+      <div class="date">Current Date <span id="currentDate"></span></div>
     </header>
+
 
     <!-- NAVIGATION HERE -->
     <nav class="clearfix">
@@ -82,11 +86,9 @@
       </main>
     <!-- FOOTER HERE -->
     <footer>
-      &copy; Acclimate | Ronaldo A. Monteiro | Brazil<br />
-      <span id="currentDate"></span>
+      &copy; Chamber | Ronaldo Monteiro | Brazil<br />
+      <div>Last Updated: <span id="lastUpdate"></span></div>
     </footer>
-    <script src="scripts/currentDate.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({
@@ -95,6 +97,6 @@
         },
       });
     </script>
-    <script type="text/javascript" src="scripts/dateHeader.js"></script>
+    
   </body>
 </html>

@@ -20,8 +20,10 @@
     .spotdiv {
         grid-column: 1/4;
         grid-row: 3/4;
+        margin-bottom: 0px !important;
         }
 
+  
     section{
         display: inline-block;
     }
@@ -35,6 +37,7 @@
         display: block;
         grid-column: 1 / 4;
         grid-row: 4/5;
+        /* margin-top: 0px !important; */
         }
 
     .eventdiv {

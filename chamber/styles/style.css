@@ -19,9 +19,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-
   margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 0px 15px;
 }
 
 
@@ -169,6 +169,7 @@ nav ul li:not(:first-child) {
 
   .main-info>button {
     display: block;
+
   }
 
   .hide {

@@ -126,7 +126,7 @@ footer {
 }
 
 .herodiv {
-    background-image: url("/chamber/images/marau.jpg");
+    
     background-position: center;
     background-repeat: no-repeat;
     padding: 15px;
@@ -185,6 +185,10 @@ footer {
 .weatherdiv h2 {
     display: flex;
     justify-content: flex-end;
+}
+
+.wind-label{
+    display: inline-block;
 }
 
 

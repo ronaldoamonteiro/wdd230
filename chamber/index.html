@@ -75,13 +75,13 @@
     
       <main>
         <div class="grid-container">
-        <div class="herodiv">
+        <div class="herodiv" style="background-image: url('/chamber/images/marau.jpg');" >
           <h1>Welcome to Marau</h1>
           <div><button>Join the Chamber</button></div>
           
         </div>
 
-        <div class="eventdiv">
+        <div class="eventdiv" >
           <h1>Ribbon Cutting</h1>
           <h3>The Diamond Shack</h3>
           <p>Join us for the grand opening of the Diamond shack , Thursday at 1:00 p.m. <a href="">more info...</a></p>
@@ -90,11 +90,13 @@
         <div class="weatherdiv">
           <h1>Weather</h1>
             <img src="images/sol.png" alt="">
-            <p>33ºC</p>  
+            <p id="high">33</p>  
           <h2>Party Cloud</h2>
           <hr>
-          <p>Wind Speed: </p>
-          <p>Wind Chill: </p>
+          <p class="wind-label">Wind Speed: </p>
+          <span id="windspeed">2.5</span>
+          <p class="wind-label">Wind Chill: </p>
+          <span id="windchill"></span>
         </div>
 
         <div class="newsdiv">
@@ -105,7 +107,7 @@
           <section class="spotsection1">
             <h1>Thankful Transportation</h1>
             <img src="images/truck.png" alt="">
-            <h3>"We get it there for you"</h3>
+            <h3>"We are always here to get it there for you"</h3>
             <hr>
             <p>hello@hankfultransport.com</p>
             <p>+55 54 99101-9133 Website</p>
@@ -152,6 +154,7 @@
     <script src="scripts/dateHeader.js"></script>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/lastUpdate.js"></script>
+    <script src="scripts/windchill.js"></script>
     
   </body>
 </html>

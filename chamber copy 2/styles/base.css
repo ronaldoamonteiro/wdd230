@@ -49,7 +49,11 @@ footer img {
     display: flex;
     background-color: #DF995E;
     justify-content: center;
-    margin: 15px;
+    margin: 8px;
+}
+
+.date {
+    margin: 10px;
 }
 
 nav button {

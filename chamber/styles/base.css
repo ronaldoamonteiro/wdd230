@@ -9,7 +9,11 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+
+}  
+  
 
 body {
     text-align: center;
@@ -19,18 +23,27 @@ body {
 header {
     overflow: hidden;    
     text-align:left;
+    display: flex;
+    flex-direction: column;
 }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
 
 .name-slogan p {
     font-weight: bold;
     color: #DF995E;
 }
 
+
 .name-slogan {
-    margin-bottom: 0;
-    display: inline-block;
-    vertical-align: middle;
-}
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    height: 100%;
+  }
 
 header img {
     width: 70px;
@@ -65,11 +78,19 @@ nav {
     font-family: Verdana, sans-serif;
 }
 
-nav ul {
+nav>ul {
     list-style-type: none;
+    list-style-type: none;
+  
+    display: flex;
+  
+    align-items: center;
+
     padding: 0;
     margin: 0;
+
 }
+
 
 nav ul li a {
     display: block;
@@ -91,6 +112,7 @@ nav ul li.active a {
 nav ul.hide {
     display: none;
 }
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -253,7 +275,32 @@ p {
     margin: 0;
 }
 
-main{
-    
+
+
+main {
+    height: 100%;
+    width: 100%;
+    padding: 8px 16px 0px 16px;
     margin: 0 auto;
+  }
+
+  .main-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 0px 15px;
+  }
+
+
+
+img {
+    height: 64px;
+    width: 64px;
+  }
+
+.img-progress picture img {
+    width:300px; 
+    height:400px;
 }

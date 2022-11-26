@@ -293,14 +293,34 @@ main {
     padding: 0px 15px;
   }
 
-
-
 img {
     height: 64px;
     width: 64px;
   }
 
-.img-progress picture img {
+.img-progress img {
     width:300px; 
     height:400px;
+}
+
+.about-city h1{
+    padding: 10px;
+}
+
+.about-city p{
+    padding-bottom: 20px;
+    text-align: justify;   
+}
+
+.grid-discover .img-city{
+    border: 1px solid #6D7993;
+}
+
+.img-city h3{
+    padding: 15px;
+}
+
+.img-city p{
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
 }

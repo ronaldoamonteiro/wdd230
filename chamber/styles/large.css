@@ -82,5 +82,14 @@
         width: 100%;
     }
 
-    
+    fieldset{
+        width: 40%;
+    }
+
+    .form-join{
+        /* centralizar */
+    }
+
+
+
 } /*end large*/

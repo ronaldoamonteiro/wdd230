@@ -44,10 +44,10 @@
         <!-- NAVIGATION HERE -->
         <nav id="primaryNav" class="clearfix">
           <ul>
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -74,67 +74,73 @@
     <!-- CONTENT HERE -->
     
       <main>
-        <div class="grid-container">
-        <div class="herodiv">
-          <h1>Welcome to Marau</h1>
-          <div><button>Join the Chamber</button></div>
-          
-        </div>
+        <h1 class="h1-member">MEMBER INFORMATION</h1>
+      <div class="form-join">
+        <form action="thankyou.html">
+          <fieldset class="fieldset1">
+            <h3>Member Information</h3>
+            <div>
+              <label>First Name*</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+            <div>
+              <label>Last Name*</label>
+              <input type="text" name="last-name" id="last-name" required />
+            </div>
+            <div>
+              <label >Job Title (min. 7 chars)</label>
+              <input type="text" name="Job-title" id="Job-title" minlength="7" />
+            </div>
+            <div>
+              <label>Phone Number*</label>
+              <input type="tel" name="phone" id="phone" required />
+            </div>
+            <div>
+              <label>Email*</label>
+              <input type="email" name="email" id="email" required />   
+            </div>
+            <div>
+              <label>Business Name*</label>
+              <input type="text" name="business-name" id="business-name" required />
+            </div>
+            <div>
+              <label>business description</label>
+              <textarea id="business-description" name="business-description" rows="4" cols="40"></textarea>
+            </div>
+          </fieldset>
+          <br>
+          <fieldset class="fieldset2">
+            
+            <h3>Membership Plans</h3>
+            <div>
+            <label for="np">
+              <input type="radio" name="plans" id="np" value="np" checked> &nbsp; Non-Profit
+            </label>
+          </div>
+          <div>
+            <label for="bronze">
+              <input type="radio" name="plans" id="bronze" value="bronze"> &nbsp; Bronze
+            </label>
+          </div>
+          <div>
+            <label for="silver">
+              <input type="radio" name="plans" id="silver" value="silver"> &nbsp; Silver
+            </label>
+          </div>
+          <div>
+            <label for="gold">
+              <input type="radio" name="plans" id="gold" value="gold"> &nbsp; Gold
+            </label>
+          </div>  
+          </fieldset>
+        
+        <br>
+          <input type="submit" value="Become a member" />
+          <br>
+        
+        </form>        
+      </div>
 
-        <div class="eventdiv" >
-          <h1>Ribbon Cutting</h1>
-          <h3>The Diamond Shack</h3>
-          <p>Join us for the grand opening of the Diamond shack , Thursday at 1:00 p.m. <a href="">more info...</a></p>
-        </div>
-
-        <div class="weatherdiv">
-          <h1>Weather</h1>
-            <img src="images/sol.png" alt="">
-            <p id="high">33</p>  
-          <h2>Party Cloud</h2>
-          <hr>
-          <p class="wind-label">Wind Speed: </p>
-          <span id="windspeed">2.5</span>
-          <p class="wind-label">Wind Chill: </p>
-          <span id="windchill"></span>
-        </div>
-
-        <div class="newsdiv">
-          <h1>News Release</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod elementum nisi quis eleifend quam. Libero volutpat sed cras ornare arcu dui vivamus arcu. Lectus nulla at volutpat diam. In fermentum posuere urna nec tincidunt praesent semper. Aliquet bibendum enim facilisis gravida neque. </p>
-        </div>
-        <div class="spotdiv">
-          <section class="spotsection1">
-            <h1>Thankful Transportation</h1>
-            <img src="images/truck.png" alt="">
-            <h3>"We are always here to get it there for you"</h3>
-            <hr>
-            <p>hello@hankfultransport.com</p>
-            <p>+55 54 99101-9133 Website</p>
-          </section>
-          <section class="spotsection2">
-            <h1>Code Primavera</h1>
-            <img src="images/code.png" alt="">
-            <h3>An after school coding instructional program</h3>
-            <hr>
-            <p>contact@codeprimavera.com</p>
-            <p>+55 54 99502-9211 Website</p>
-          </section>
-          <section class="spotsection3">
-            <h1>Build a Treefort</h1>
-            <img src="images/tree.png" alt="">
-            <h3>Over 1000 plans!</h3>
-            <hr>
-            <p>build@treefort.com</p>
-            <p>+55 54 99567-9552 Website</p>
-          </section>
-        </div>
-        <div class="joindiv">
-          <button>Join Us!</button>
-          <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-        </div>
-  
-    </div>
       </main>
     <!-- FOOTER HERE -->
     <footer>

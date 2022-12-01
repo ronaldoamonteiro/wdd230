@@ -149,11 +149,28 @@ footer {
 
 .herodiv {
     
-    background-position: center;
-    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* background-position: center;
+    background-repeat: no-repeat; */
     padding: 15px;
     background-color: #D5D5D5;
     width: auto;
+}
+
+.img-herodiv{
+    height: 100%;
+
+}
+.img-herodiv img{
+    /* transform: scale(2) !important; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+    
+
 }
 
 .herodiv button{

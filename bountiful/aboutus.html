@@ -10,86 +10,85 @@
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/small.css">
 </head>
 
-<body>
+<body class="body-aboutus">
   <!-- First section of the landing page (Presentation) -->
-  <section class=".grid-container">
-    <header>
-      <div class="icon">
-        <div class="logo"><img src="images/icon.png" alt="icon"></div>
-        <div class="company-name"><p>Bountiful Foods</p></div>
-      </div>
-      <!-- All subsections -->
-      <div class="right-side">
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="fresh.html">Fresh</a>
-          <a href="#">About Us</a>
-          </ul>
-        </nav>
-        <div class="cart">
-          <span>Cart</span>
-        </div>
-      </div>
-    </header>
-    <main class="main-about-us">
-    <div class="about-us">
-        <div>
-            <h1>Carlsbad’s Best Organic Food Store</h1>
-            <p>Because we love our community, we sell only the finest natural and organic foods available. Our mission is to make it easy to eat healthy, fresh, and locally grown organic food. We’re leading the way to great health for people, our community, and our planet.
-                <br><br>
-                In order to be your favorite organic food store, Bountiful Foods features some of the finest vitamins and herbs available in the Pacific Northwest, products with no synthetics or harmful chemicals. We carefully curate a range of products to protect, nourish, and strengthen your body.
-                <br><br>
-                When you walk through our doors, you’ll be greeted by fresh produce, a globally-inspired deli hot bar, and a friendly, experienced team ready to help you eat well and be happy!</p>
-        </div>
+  
+  <header>
+    <div class="icon">
+      <div class="logo"><img src="images/icon.png" alt="icon"></div>
+      <div class="company-name"><p>Bountiful Foods</p></div>
     </div>
-
-    <div class="about-us-img">
+    <!-- All subsections -->
+    <div class="right-side">
+      <nav class="nav-items">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="fresh.html">Fresh</a>
+        <a class="nav-link" href="aboutus.html">About Us</a>
+      </nav>
+    </div>
+    <div class="hamburger">
+      <img src="images/hamburger-menu.svg" alt="Hamburger Menu" />
+    </div>
+  </header>
+    <main class="grid-container-main main-about-us">
+    <div class="about-us">
+      <div>
+      <h1>Carlsbad’s Best Organic Food Store</h1>
+      <div class="about-us-img">
         <img src="images/aboutus.png" alt="">
+      </div>
+    </div>
+      <p>Because we love our community, we sell only the finest natural and organic foods available. Our mission is to make it easy to eat healthy, fresh, and locally grown organic food. We’re leading the way to great health for people, our community, and our planet.
+      <br><br>
+      In order to be your favorite organic food store, Bountiful Foods features some of the finest vitamins and herbs available in the Pacific Northwest, products with no synthetics or harmful chemicals. We carefully curate a range of products to protect, nourish, and strengthen your body.
+      <br><br>
+      When you walk through our doors, you’ll be greeted by fresh produce, a globally-inspired deli hot bar, and a friendly, experienced team ready to help you eat well and be happy!</p>  
     </div>
 
     <div class="truck-locations">
-        <h1>Food Truck Locations</h1>
+        <h1 class="h1-aboutus">Food Truck Locations</h1>
           <div class="location1 img-location">            
             <h3>Los Angeles</h3>
-            <p>2530 COVE DR LOS ANGELES CA 90005-1005 USA | PHONE: +1 209 454-5685</p>
+            <p>2530 COVE DR LOS ANGELES CA 90005-1005 USA </p><p> PHONE: +1 209 454-5685</p>
             <img src="images/imagePlaceholder.png" data-src="images/img1.jpg" alt="image 1" width="400" height="400" loading="lazy">
           </div>
           <div class="location2 img-location">    
             <h3>San Clemente</h3>
-            <p>4145 STATE STREET SAN CLEMENTE CA 92672-3025 USA | PHONE: +1 209 895-5654</p>
+            <p>4145 STATE STREET SAN CLEMENTE CA 92672-3025 USA </p><p> PHONE: +1 209 895-5654</p>
             <img src="images/imagePlaceholder.png" data-src="images/img2.jpg" alt="image 1" width="400" height="400" loading="lazy">
           </div>
           <div class="location3 img-location">
             <h3>San Diego</h3>
-            <p>1548 LA REINA DR SAN DIEGO CA 91911-2045 USA | PHONE: +1 209 898-8745</p>
+            <p>1548 LA REINA DR SAN DIEGO CA 91911-2045 USA</p><p>PHONE: +1 209 898-8745</p>
             <img src="images/imagePlaceholder.png" data-src="images/img3.jpg" alt="image 1" width="400" height="400" loading="lazy">
           </div>
           <div class="location4 img-location">
             <h3>Torrence</h3>
-            <p>1752 GREGSON AVE TORRENCE CA 93011-3022 USA | PHONE: +1 209 114-3565</p>
+            <p>1752 GREGSON AVE TORRENCE CA 93011-3022 USA </p><p> PHONE: +1 209 114-3565</p>
             <img src="images/imagePlaceholder.png" data-src="images/img4.jpg" alt="image 1" width="400" height="400" loading="lazy">
           </div>
           <div class="location5 img-location">
             <h3>Encinitas</h3>
-            <p>8987 LOS ANDES AVE ENCINITAS CA 91857-1454 USA | PHONE: +1 209 254-7534</p>
+            <p>8987 LOS ANDES AVE ENCINITAS CA 91857-1454 USA </p><p> PHONE: +1 209 254-7534</p>
             <img src="images/imagePlaceholder.png" data-src="images/img5.jpg" alt="image 1" width="400" height="400" loading="lazy">
           </div>
           <div class="location6 img-location">  
             <h3>Newport Beach</h3>
-            <p>3665 MAIN STREET NEWPORT BEACH CA 90045-2045 USA | PHONE: +1 209 874-1123</p>
+            <p>3665 MAIN STREET NEWPORT BEACH CA 90045-2045 USA </p><p> PHONE: +1 209 874-1123</p>
             <img src="images/imagePlaceholder.png" data-src="images/img6.jpg" alt="image 1" width="400" height="400" loading="lazy">
           </div>
     </div>
     
     <div class="contact-information">
-        <h1>Contact us</h1>
+        <h1 class="h1-aboutus">Contact us</h1>
         <span><b>Phone</b>: +1 209 654-4248</span>
-        <span><b>E-mail</b>: contact@bountifulfoods.com</span>
+        <span class="email"><b>E-mail</b>: contact@bountifulfoods.com</span>
     </div>
     <div class="map">
-        <h1>Address</h1>
+        <h1 class="h1-aboutus">Address</h1>
         <p>1975 CHESTNUT AVE, CARLSBAD, CA 92008 USA</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.0223313848846!2d-117.32922278498869!3d33.16104058085777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc723a0573f74d%3A0xfb43b204080d26ad!2s1975%20Chestnut%20Ave%2C%20Carlsbad%2C%20CA%2092008%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1670880760132!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
     </div>
@@ -100,10 +99,12 @@
         <div class="update"><p>Last Updated:</p><span id="lastUpdate"></span></div>
       </div>
     </footer>
-  </section>
+  
 
   <script src="scripts/index.js"></script>
   <script src="scripts/lastUpdate.js"></script>
+  <script src="scripts/lazy.js"></script>
+  <script src="scripts/menu.js"></script>
 </body>
 
 </html>

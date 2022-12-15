@@ -2,6 +2,46 @@
 
 @media(max-width: 576px) {
 
+  .hamburger {
+    display: block;
+  }
+
+  .nav-items {
+    width: fit-content;
+    min-width: fit-content;
+    position: fixed;
+    right: -100%;
+    top: 48px;
+    flex-direction: column;
+    text-align: center;
+    background: #007232;
+    transition: 0.3s;
+  }
+
+  .nav-items.active {
+    right: 0;
+  }
+
+  .nav-items a {
+    color: #fff;
+    width: 160px;
+    height: 32px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-items a {
+    margin: 0.8rem 0 !important;
+  }
+
+  .nav-items a::after {
+    display: none;
+    height: 0px;
+  }
+
     .presentation main {
       flex-direction: column;
       padding-top: 7.2rem;
@@ -123,4 +163,52 @@
     .today-date {
       display: none;
     } */
+  
+  /*ABOUT US PAGE*/
+  
+  .about-us{
+    display: block;
   }
+
+  .main-about-us {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about-us p{
+    margin-top: 10px;
+    margin-right: 0px;
+    font-size: 15pt;
+    text-align: justify;
+  }
+
+  .about-us-img img{
+    width: 100%;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .img-location img{
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 32px;
+  }
+
+  iframe{
+    width: 100%;
+    height: 250px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .h1-aboutus{
+    padding-top: 40px;
+    padding-bottom: 12px;
+  }
+.email {
+  display: block;
+}
+ 
+}

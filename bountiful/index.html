@@ -18,6 +18,7 @@
 <body>
   <!-- First section of the landing page (Presentation) -->
   <section class="presentation">
+
     <header>
       <div class="icon">
         <div class="logo"><img src="images/icon.png" alt="icon"></div>
@@ -25,17 +26,19 @@
       </div>
       <!-- All subsections -->
       <div class="right-side">
-        <nav>
-          <a href="#">Home</a>
-          <a href="fresh.html">Fresh</a>
-          <a href="aboutus.html">About Us</a>
-          </ul>
+        <nav class="nav-items">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="fresh.html">Fresh</a>
+          <a class="nav-link" href="aboutus.html">About Us</a>
         </nav>
-        <div class="cart">
-          <span>Cart</span>
-        </div>
+       
+      </div>
+      <div class="hamburger">
+        <img src="images/hamburger-menu.svg" alt="Hamburger Menu" />
       </div>
     </header>
+
+
     <main class="main-home">
       <!-- Content with the call to action -->
       <aside class="content-aside">
@@ -46,15 +49,12 @@
           <div class="title">
             <h1 id="title"><b>Kiwi</b> Juice</h1>
           </div>
-          <div class="price">
-            <span id="price">U$ 9.00</span>
-          </div>
           <div class="title-content">
             <span id="description">Delicious and organic. Fibres in kiwi juice may lower cholesterol and improve heart health. In addition, an increase in potassium intake and decreasing sodium intake may help to regulate the heart rate. Kiwi juice is also rich in omega-3 fatty acids, which may reduce the risk of coronary heart disease and stroke.</span>
           </div>
         </div>
         <div>
-          <button class="order-btn">Order now!</button>
+          <a href="fresh.html"><button class="order-btn" >Order now!</button></a>
         </div>
       </aside>
       <aside class="swiper mySwiper images-aside">
@@ -120,14 +120,14 @@
         <div class="cta-content">
           <div class="cta-row">
             <div class="first-message">
-              <span>You have chosen “n” drinks with us. Would you like to try a new one today? </span>
+              <span>You have chosen <h1 id="number-of-drinks"></h1> drinks with us. Would you like to try a new one today? </span>
             </div>
             <div class="btn-container">
-              <button class="no-margin order-btn">Order now!</button>
+              <a href="fresh.html"><button class="no-margin order-btn">Order now!</button></a>
             </div>
           </div>
           <div class="second-message">
-            <span>You are “y” drinks away from a store courtesy. We are looking forward to seeing you enjoying this
+            <span>You are <h1 id="number-of-drinks-to-courtesy"></h1> drinks away from a store courtesy. We are looking forward to seeing you enjoying this
               offer today! </span>
           </div>
         </div>
@@ -148,16 +148,16 @@
         </div>
         <div class="weather-card">
           <div class="today-date">
-            <span>Sunday, December 11, 2022</span>
+            <span id="today-date">Sunday, December 11, 2022</span>
           </div>
           <div class="temperature-humidity-row">
             <div class="city-card">
               <div class="city-container">
                 <div class="city-name">
-                  <span>Sunny</span>
+                  <span id="weather-description">Sunny</span>
                 </div>
                 <div class="temperature">
-                  <span>26°</span>
+                  <span id="current-temperature">26°</span>
                 </div>
               </div>
             </div>
@@ -166,24 +166,28 @@
                 <span>Humidity</span>
               </div>
               <div class="percentual">
-                <span>70%</span>
+                <span id="current-humidity">70%</span>
               </div>
             </div>
           </div>
           <div class="forecast-container">
             <div class="tomorrow-forecast">
-              <span>Tomorrow</span>
-              <span>31°</span>
+              <span id="forecast-day-1">Tomorrow</span>
+              <span>|</span>
+              <span id="forecast-temperature-1">31°</span>
             </div>
             <div class="two-days-from-now">
-              <span>Tuesday</span>
-              <span>31°</span>
+              <span id="forecast-day-2">Tuesday</span>
+              <span>|</span>
+              <span id="forecast-temperature-2">31°</span>
             </div>
             <div class="three-days-from-now">
-              <span>Wednesday</span>
-              <span>27°</span>
+              <span id="forecast-day-3">Wednesday</span>
+              <span>|</span>
+              <span id="forecast-temperature-3">123</span>
             </div>
           </div>
+        </div>
         </div>
         <div class="another-cta">
           <span>Today is a perfect day to have a good time with us!</span>
@@ -200,7 +204,8 @@
 
   <script src="scripts/index.js"></script>
   <script src="scripts/lastUpdate.js"></script>
-    <script src="menu.js"></script>
+  <script src="scripts/weatherApi.js"></script>
+  <script src="scripts/menu.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .cta-row {
+      flex-direction: column;
+    }
+  
+    .first-message {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      width: 100%;
+    }
+  
+    .first-message span {
+      width: 100%;
+      text-align: left;
+    }
+  
+  
+    .btn-container {
+      height: fit-content;
+      width: fit-content;
+    }
+  }

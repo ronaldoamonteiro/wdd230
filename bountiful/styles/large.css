@@ -711,6 +711,7 @@ select {
  .main-about-us {
   display: block;
   padding: 80px 20px 20px 20px;
+  height: fit-content;
 }
 
 
@@ -734,6 +735,10 @@ select {
   grid-gap: 30px;
 }
 
+ .body-aboutus {
+  height: 200vh !important;
+}
+
 .about-us p{
   margin-top: 80px;
   margin-right: 60px;
@@ -746,6 +751,7 @@ select {
 
 .truck-locations, .h1-aboutus{
   align-self: center;
+  margin-top: 72px;
 }
 
 .img-location, .h1-aboutus, .contact-information, .map{
@@ -761,4 +767,8 @@ select {
 
 .img-location img{
   margin-top: 8px;
+}
+
+.footer{
+  height: fit-content;
 }

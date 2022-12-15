@@ -1,17 +1,17 @@
 [
     {
       "title": "Kiwi Juice",
-      "path": "./images/fruits-svgrepo-com.svg",
+      "path": "images/fruits-svgrepo-com.svg",
       "description": "Delicious and organic. Fibres in kiwi juice may lower cholesterol and improve heart health. In addition, an increase in potassium intake and decreasing sodium intake may help to regulate the heart rate. Kiwi juice is also rich in omega-3 fatty acids, which may reduce the risk of coronary heart disease and stroke."
     },
     {
       "title": "Organic Grapes",
-      "path": "./images/grapes-svgrepo-com.svg",
+      "path": "images/grapes-svgrepo-com.svg",
       "description": "Grape juice is a good source of several important nutrients, including vitamin C, manganese, and antioxidants. It's also linked to several health benefits. For example, it may support heart health, immune function, and digestive health."
     },
     {
       "title": "Organic Apples",
-      "path": "./images/pear-svgrepo-com.svg",
+      "path": "images/pear-svgrepo-com.svg",
       "description": "Bag with 7 organic apples. Apples are an incredibly nutritious fruit that offers multiple health benefits. They're rich in fiber and antioxidants. Eating them is linked to a lower risk of many chronic conditions, including diabetes, heart disease, and cancer."
     }
   ]
